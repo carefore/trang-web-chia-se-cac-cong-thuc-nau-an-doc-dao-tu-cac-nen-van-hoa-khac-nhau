@@ -1,5 +1,4 @@
 
-```markdown
 # Chia sẻ công thức nấu ăn độc đáo
 
 Đây là một ứng dụng web đơn giản cho phép người dùng chia sẻ các công thức nấu ăn từ các nền văn hóa khác nhau. Người dùng có thể thêm công thức nấu ăn của họ, cùng với thông tin về nguyên liệu và hướng dẫn cụ thể.
