@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chia sẻ công thức nấu ăn</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Chia sẻ công thức nấu ăn độc đáo</h1>
+
+  <form id="recipeForm">
+    <label for="recipeName">Tên công thức:</label>
+    <input type="text" id="recipeName" name="recipeName" required><br><br>
+
+    <label for="cuisine">Nền văn hóa:</label>
+    <input type="text" id="cuisine" name="cuisine" required><br><br>
+
+    <label for="ingredients">Nguyên liệu:</label>
+    <textarea id="ingredients" name="ingredients" required></textarea><br><br>
+
+    <label for="instructions">Hướng dẫn:</label>
+    <textarea id="instructions" name="instructions" required></textarea><br><br>
+
+    <input type="submit" value="Lưu công thức">
+  </form>
+
+  <div id="recipeList">
+    <!-- Các công thức sẽ được hiển thị ở đây -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
